@@ -148,7 +148,11 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(rows[3]).to eq("-----------")
       expect(rows[4]).to eq(" X | X | X ")
 
+<<<<<<< HEAD
       expect(true).to be(true)
+=======
+      #expect(true).to be(true)
+>>>>>>> 70ac42e5bf687d20f840863c8180b7a3b25c50b9
     end
 
     it 'prints an entire board full of Os' do
@@ -163,7 +167,11 @@ describe "#display_board in 'lib/display_board.rb" do
       expect(rows[3]).to eq("-----------")
       expect(rows[4]).to eq(" O | O | O ")
       
+<<<<<<< HEAD
       expect(true).to be(true)
+=======
+      #expect(true).to be(true)
+>>>>>>> 70ac42e5bf687d20f840863c8180b7a3b25c50b9
     end
   end
 end
